@@ -100,7 +100,7 @@ func (ig *BaseIdxGen) Init() {
 
 func (ig *BaseIdxGen) Start() {
 	fmt.Println(ig.name, "Start")
-	m := []byte("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-")
+	m := []byte("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
 Loop:
 	for {
